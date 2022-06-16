@@ -1,5 +1,5 @@
 body {
- 
+ font-family: 'Epilogue', sans-serif;
  
 }
 
@@ -25,13 +25,62 @@ body {
   margin-top: 24px;
   height: 56px;
   width: 219px;
+  border: 1px solid #172339;
+  border-radius: 5px;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.16px;
+  color: #172339;
+  background-color: Transparent;
+
+}
+
+.main-top-button {
+  height: 56px;
+  width: 219px;
   border: none;
   border-radius: 5px;
-
 }
 
 .suite--logo {
 margin-top: 25px;
 height: 24.8px;
+}
+
+
+.main-top {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/*typography*/
+
+.main-top-heading {
+  color: #172339;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: -1px;
+}
+
+.main-top-p {
+  color: #49566D;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+
+}
+
+.main-top-button {
+  background-color: #172339;
+  color: #FAF8F6;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+
 }
 
