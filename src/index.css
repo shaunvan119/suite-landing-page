@@ -1,0 +1,37 @@
+body {
+ 
+ 
+}
+
+
+/*layout and sizing*/
+
+.top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px; /*adjust the width to auto adjust*/
+  margin: 0 auto;
+ 
+  
+}
+
+.call-button {
+  margin-top: 24px;
+  height: 56px;
+  width: 219px;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.suite--logo {
+margin-top: 25px;
+height: 24.8px;
+}
+
