@@ -283,10 +283,10 @@ position:absolute;
   }
 
   .top-header {
+    margin-top: 80px;
     display: flex;
-    flex-direction: column;
-    
-}
+    flex-direction: row;
+  }
 
 .suite--logo {
 
@@ -428,6 +428,8 @@ width: 81px;
   
 }
 
+
+
   
 }
 
@@ -436,5 +438,76 @@ width: 81px;
     display: none;
     
   }
+
+  
+
+}
+
+/*MQ mobile*/
+
+ @media  (max-width: 500px) {
+  .wrapper {
+    max-width: 375px;
+    margin: 0 auto;
+    
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .phoneSmall {
+    position:absolute;
+    top: 520px;
+  }
+
+  .main-bottom {
+    position: relative;
+    top: 100px;
+    height: 748px;
+    width: 375px;
+ 
+}
+
+.jeremyTwo {
+    top: -140px;  
+  }
+
+  .blur {
+    display: none;
+  }
+
+  .jeremy-testimonial {
+    position: absolute;
+    left: 40px;
+    top: 300px;
+  }
+
+  .top-header {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .suite--logo {
+    margin-top: 30px;
+  }
+
+  .curve {
+  position:absolute;
+  left: 10px;
+  width: 250px;
+  
+}
+
+}
+
+@media  (min-width: 505px) {
+  .phoneSmall {
+    display: none;
+    
+  }
+
+  
 
 }

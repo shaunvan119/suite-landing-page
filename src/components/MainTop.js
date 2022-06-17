@@ -1,5 +1,6 @@
 import curve from '../assets/curved.svg'
 import phone from '../assets/phone.png'
+import phoneSmall from '../assets/phone-small.png'
 import {Link} from "react-router-dom"
 
 
@@ -17,7 +18,8 @@ function MainTop() {
             <Link to="/contact"><button className="main-top-button">Request Beta Access</button></Link>
             </div>
             <div className='main-right'>
-            <img src={phone} alt="Logo" className="phone" />
+            <img src={phoneSmall} alt="mobile" className="phoneSmall" />
+            <img src={phone} alt="mobile" className="phone" />
             </div>
             <div className="main-right-two">
                 <h1 className="right-numbers">2K+<br/><span className="right-headings">COMPANIES</span></h1>
