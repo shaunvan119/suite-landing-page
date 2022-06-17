@@ -1,6 +1,8 @@
 import Header from "./components/Header";
 import MainTop from "./components/MainTop";
 import MainBottom from "./components/MainBottom";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       <Header/>
       <MainTop/>
       <MainBottom/>
+      <Footer/>
     </div>
   );
 }

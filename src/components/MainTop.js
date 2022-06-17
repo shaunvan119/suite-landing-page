@@ -8,7 +8,7 @@ function MainTop() {
     return (
         <div className="main-top">
           <div className="main-left">
-            <img src={curve} alt="Logo" className="curve" />
+            <img src={curve} alt="curved-line" className="curve" />
             <h1 className="main-top-heading">A super solution<br/>for your business.</h1>
             <p className="main-top-p">Our marketing and sales automations<br/> 
                 help you scale your outreach to get<br/>
