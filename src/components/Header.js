@@ -1,4 +1,5 @@
 import logo from '../assets/logo.svg'
+import {Link} from "react-router-dom"
 
 
 function Header() {
@@ -6,7 +7,7 @@ function Header() {
     return (
         <header className="top-header">
             <img src={logo} alt="Logo" className="suite--logo" />   
-            <button className="call-button">Request Beta Access</button>
+            <Link to="/contact"><button className="call-button">Request Beta Access</button></Link>
         </header>
     )
 }
