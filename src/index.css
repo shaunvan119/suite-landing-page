@@ -49,12 +49,136 @@ height: 24.8px;
 
 
 .main-top {
+  position: relative;
   display: flex;
   flex-direction: row;
 }
 
+.phone {
+  position:absolute;
+  left: 475px;
+    
+}
+
+.curve {
+  position:absolute;
+  left: 285px;
+}
+
+.main-left {
+position:absolute;
+    z-index:1;
+}
+
+.main-top {
+  margin-top: 60px;
+}
+
+.main-bottom {
+  position: relative;
+  margin-top: 470px;
+  width: 1109px;
+  height: 545px;
+  background: #172339;
+  border-radius: 15px;
+}
+
+
+
+.jeremy {
+  position:absolute;
+  z-index:1;
+  left: 65px;
+  bottom: 0px;      
+}
+
+.blur {
+  position:absolute;
+  z-index:0;
+  top: 90px;
+
+
+     
+}
+
+.main-right-two {
+  
+  margin-left: 900px;
+}
+
+.jeremy-testimonial {
+  position: absolute;
+  left: 650px;
+  top: 70px;
+}
+
+
+.curved-line {
+  position: absolute;
+  right: 400px;
+  top: 100px;
+}
+
 
 /*typography*/
+
+.works {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #f3ede7;
+}
+
+.it-just {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #f3ede7;
+}
+
+.jeremy-paragraph {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #f3ede7;
+}
+
+
+.jeremy-name-bottom {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f3ede7;
+
+}
+
+.bottom-sig {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+   color: #f3ede7;
+
+}
+
+
+
+.right-headings {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #49566D;
+  letter-spacing: 2.5px;
+ 
+}
+
+.right-numbers {
+  color: #172339;
+  font-size: 48px;
+  font-weight: 700;
+  
+}
+
 
 .main-top-heading {
   color: #172339;

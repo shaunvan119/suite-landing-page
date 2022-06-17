@@ -18,6 +18,11 @@ function MainTop() {
             <div className='main-right'>
             <img src={phone} alt="Logo" className="phone" />
             </div>
+            <div className="main-right-two">
+                <h1 className="right-numbers">2K+<br/><span className="right-headings">COMPANIES</span></h1>
+                <h1 className="right-numbers">8<br/><span className="right-headings">LANGUAGES</span></h1>
+                <h1 className="right-numbers">1.2M<br/><span className="right-headings">LEADS</span></h1>
+            </div>
      
         
         </div>
