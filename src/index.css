@@ -95,15 +95,12 @@ position:absolute;
 .blur {
   position:absolute;
   z-index:0;
-  top: 90px;
-
-
-     
+  top: 90px;    
 }
 
 .main-right-two {
-  
-  margin-left: 900px;
+  position: relative;
+  left: 900px;
 }
 
 .jeremy-testimonial {
@@ -272,3 +269,172 @@ position:absolute;
       border: none;
       font-family: Plus Jakarta Sans;
     }
+
+
+
+/*MQ tablet*/
+
+    @media  (max-width: 1052px) {
+  .wrapper {
+    display: flex;
+    max-width: 768px; /*adjust the width to auto adjust*/
+    margin: 0 auto;
+    
+  }
+
+  .top-header {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.suite--logo {
+
+width: 81px;
+}
+
+  .main-top-heading {
+  color: #172339;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -0.7777777910232544px;
+}
+
+.main-top-p {
+  color: #49566D;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.08888889104127884px;
+}
+
+.phone {
+  position:absolute;
+  left: 342px;
+    
+}
+
+.curve {
+  position:absolute;
+  left: 140px;
+  
+}
+
+.main-right-two {
+  position: relative;
+  left: 100px;
+  display: flex;
+  top: 600px;
+  
+  
+}
+
+.main-bottom {
+  margin-top: 820px;
+
+}
+
+.main-right-two {
+  display: none;
+  
+}
+
+.jeremy {
+  display: none;   
+}
+
+.jeremyTwo {
+  position:absolute;
+  z-index:1;
+  left: 40px;
+  bottom: 160px;   
+
+}
+
+/*.jeremy {
+  position:absolute;
+  z-index:1;
+  left: 200px;
+  bottom: 400px;      
+}*/
+
+.main-bottom {
+  position: relative;
+  width: 689px;
+  height: 445px;
+  
+}
+
+.blur {
+  position:absolute;
+  z-index:0;
+  top: -100px; 
+  left: -100px;   
+}
+
+.jeremy-testimonial {
+  position: absolute;
+  left: 350px;
+  top: 50px;
+}
+
+
+
+
+.works {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #f3ede7;
+}
+
+.it-just {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #f3ede7;
+}
+
+.jeremy-paragraph {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #f3ede7;
+}
+
+
+.jeremy-name-bottom {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f3ede7;
+
+}
+
+.bottom-sig {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+   color: #f3ede7;
+
+}
+
+.curved-line {
+  display: none;
+  
+}
+
+  
+}
+
+ @media  (min-width: 1052px) {
+  .jeremyTwo {
+    display: none;
+    
+  }
+
+}
